@@ -24,6 +24,7 @@ prompt = f"Show me {no_recipes} recipes for a dish with the following ingredient
 
 
 # engine
+engine = os.getenv("ENGINE")
 
 # deployment_id
 deployment_name = os.getenv("DEPLOYMENT_NAME")
